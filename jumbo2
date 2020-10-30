@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "jumbo2randompull"
+echo "jumbo2randompullPUSH"
 echo "jumbo1"
 echo "merge"
 echo "jumbo2"
