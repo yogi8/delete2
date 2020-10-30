@@ -1,6 +1,17 @@
-#!/bin/bash
-echo "jumbo2randompullPUSH"
-echo "jumbo1"
-echo "merge"
-echo "jumbo2"
-echo "gitjar"
+13.235.18.26
+13.127.108.73
+
+kubeadm join 172.31.39.240:6443 --token 38r06u.u6itb5wzpc49v7oq --discovery-token-ca-cert-hash sha256:23cf0c564d0e73df115ec00278a843dec86be09350043239c3e8aac3be5a17e1
+
+
+curl https://get.helm.sh/helm-v3.4.0-linux-amd64.tar.gz > helm.tar.gz
+
+tar -xvf helm.tar.gz
+cd linux-amd64/
+sudo mv helm /usr/local/bin
+cd ~
+helm version
+helm repo add stable https://charts.helm.sh/stable
+helm search repo stable
+helm install random stable/nginx-ingress
+helm uninstall random stable/nginx-ingress
