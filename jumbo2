@@ -1,3 +1,4 @@
 #!/bin/bash
 echo "jumbo2"
 echo "jumbo1"
+echo "merge"
