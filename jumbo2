@@ -1,5 +1,5 @@
-35.154.207.24
-13.232.81.77
+13.232.52.160
+65.0.104.5
 
 kubeadm join 172.31.39.240:6443 --token 38r06u.u6itb5wzpc49v7oq --discovery-token-ca-cert-hash sha256:23cf0c564d0e73df115ec00278a843dec86be09350043239c3e8aac3be5a17e1
 
